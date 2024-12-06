@@ -170,10 +170,9 @@
 // }
 
 
-
+import dotenv from "dotenv";
 import express from "express";
 import { connectDB } from "./utils/features.js";
-import dotenv from "dotenv";
 import { errorMiddleware } from "./middlewares/error.js";
 import cookieParser from "cookie-parser";
 import { Server } from "socket.io";
