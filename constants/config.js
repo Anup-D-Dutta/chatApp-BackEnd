@@ -31,6 +31,6 @@ const corsOptions = {
     credentials: true, // Allow cookies
 };
 
-const MESSAGE_TOKEN = "message-Token";
+const MESSAGE_TOKRN = "message-Token";
 
-export { corsOptions, MESSAGE_TOKEN };
+export { corsOptions, MESSAGE_TOKRN };
